@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jkup/whome/issues"
   },
-  "homepage": "https://github.com/jkup/whome#readme"
+  "homepage": "https://github.com/jkup/whome#readme",
+  "dependencies": {
+    "ipify": "^1.1.0"
+  }
 }
