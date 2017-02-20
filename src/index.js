@@ -3,10 +3,10 @@ const getmac = require('getmac')
 
 const macAddress = getmac.getMac((err, address) => {
     if (err) throw err
-    console.log(address)
+    console.log(`Your MAC address is: ${address}`)
 })
 
 const ipAddress = ipify((err, ip) => {
     if (err) throw err
-    console.log(ip)
+    console.log(`Your IP address is: ${ip}`)
 })
