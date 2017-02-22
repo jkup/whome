@@ -10,10 +10,5 @@ const macAddress = getmac.getMac((err, address) => {
 const ipAddress = ipify((err, ip) => {
     if (err) throw err
     console.log(`Your IP address is: ${ip}`)
-	console.log("Your local IP Address is " + internalIp.v4())
-})
-
-const ipLocal = internalIp.v4((err, ip) => {
-    if (err) throw err
-	console.log("Your local IP Address is ${ip}"  )
+	console.log(`Your local IP Address is ${internalIp.v4()}`)
 })
