@@ -1,11 +1,15 @@
 # Who Me?
 
-Easily find your IP and MAC address from the terminal.
+Easily find MAC address, external IP address, and local IP address from the terminal.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
 ## Installation
+
+Use without installing
+
+    npx whome
 
 Install it globally with npm
 

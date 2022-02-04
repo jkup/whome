@@ -21,16 +21,17 @@
   "bugs": {
     "url": "https://github.com/jkup/whome/issues"
   },
+  "type": "module",
   "bin": {
-    "whome": "bin/whome"
+    "whome": "bin/whome.js"
   },
   "homepage": "https://github.com/jkup/whome#readme",
   "dependencies": {
-    "getmac": "^1.2.1",
-    "ipify": "^1.1.0",
-    "internal-ip": "^1.2.0"
+    "getmac": "^5.20.0",
+    "internal-ip": "^7.0.0",
+    "public-ip": "^5.0.0"
   },
   "devDependencies": {
-    "standard": "^8.6.0"
+    "standard": "^16.0.4"
   }
 }
